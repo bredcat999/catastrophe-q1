@@ -1,13 +1,19 @@
+# Catastrophe source
+
+This is the source for my quake mod (which I will hopefully finish) called Catastrophe. More stuff coming soon.
+
+# ORIGINAL README
 
 # Cleaned up Quake id1 v1.01 QuakeC source
 
 This is just the QuakeC source for vanilla Quake for modders to use.
 
-Because of vagueness with licensing, Quake 1.06 source isn't necessarily a good place to start from, it did not come with any license attached. Meanwhile 1.01 is more explicitely released under GPL in the Quake-Tools source release by id software: https://github.com/id-Software/Quake-Tools
+Because of vagueness with licensing, Quake 1.06 source isn't necessarily a good place to start from, it did not come with any license attached. Meanwhile 1.01 is more explicitely released under GPL in the Quake-Tools source release by id software: <https://github.com/id-Software/Quake-Tools>
 
-Anyone who has done QuakeC programming knows how messy the codebase is, and that there's some known bugs there too. While I've avoided changing the code behavior, I've done a lot of very basic clean up and fixed more harmless bugs (Rotfish monster count anyone?). The major changes from v1.06 have been redone here, but there's a few multiplayer specific things in v1.06 that are not in this release (mostly killmessages). 
+Anyone who has done QuakeC programming knows how messy the codebase is, and that there's some known bugs there too. While I've avoided changing the code behavior, I've done a lot of very basic clean up and fixed more harmless bugs (Rotfish monster count anyone?). The major changes from v1.06 have been redone here, but there's a few multiplayer specific things in v1.06 that are not in this release (mostly killmessages).
 
 My changes done to the codebase compared to 1.01:
+
 - Eliminate all warnings that FTEQCC gives it
 - Fix parm7 not being set to 0 properly in SetNewParms (cells) (like in v1.06)
 - Remove DumpScore (like in v1.06)
